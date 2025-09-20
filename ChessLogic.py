@@ -1,20 +1,7 @@
 """
 Responslabe for handling chess logic
 "
-import pygame
-import copy
 
-self.board = [
-            ["bR","bN","bB","bQ","bK","bB","bN","bR"],
-            ["bP","bP","bP","bP","bP","bP","bP","bP"],
-            ["--","--","--","--","--","--","--","--"],
-            ["--","--","--","--","--","--","--","--"],
-            ["--","--","--","--","--","--","--","--"],
-            ["--","--","--","--","--","--","--","--"],
-            ["wP","wP","wP","wP","wP","wP","wP","wP"],
-            ["wR","wN","wB","wQ","wK","wB","wN","wR"]
-        ]
-"""
 import pygame
 import copy
 pygame.init()
@@ -485,4 +472,5 @@ class Move():
         startColNotation = chr(self.startCol + 97)
         targetColNotation = chr(self.targetCol + 97)
         MoveNotation = startColNotation + startRowNotation + targetColNotation + targetRowNotation
+
         return MoveNotation

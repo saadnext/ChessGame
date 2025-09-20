@@ -47,7 +47,7 @@ A simple **2-player chess game** implemented in Python. Play chess on your compu
 
 2. Clone the repository:
   
-   git clone https://github.com/yourusername/chess-game.git
+   git clone https://github.com/saadnext/chessgame.git
 
 
 3. Navigate to the folder:

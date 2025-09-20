@@ -8,10 +8,11 @@ A simple **2-player chess game** implemented in Python. Play chess on your compu
   - Pawn moves & captures
   - Castling
   - En passant
-  - Promotion
-- Turn-based gameplay for two players
-- Detects check and checkmate
-- Optional GUI (if implemented)
+  - Automatic promotion to Queen
+- Two-player gameplay
+- Optional GUI support (if implemented)
+- Easy to run on any system with Python 3.x
+- Designed for learning and fun!
 
 ## Installation
 
@@ -20,7 +21,7 @@ A simple **2-player chess game** implemented in Python. Play chess on your compu
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chess-game.git
+   git clone https://github.com/saadnext/chessgame.git
 Perfect! Here’s a **professional README** for your Python chess game that you can directly use in your GitHub repo. I made it simple, clear, and informative:
 
 
